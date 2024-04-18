@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amardeep Singh Brar</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header id="head">
+        <div class="header-content">
+            <h3 class="header-title"></h3>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section id="home">
+            <div class="home_container">
+                <h1>Welcome to My Personal Website</h1>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about_container">
+                <h1>About Me</h1>
+                <div class="info">
+                    <div id="info_content fade-in-text">
+                        <p></p>
+                        <p>
+                           Hi, I'm Amardeep Singh Brar! I do a bunch of different things. I like helping out at the Ramgarhia Sikh Society and teaching kids in Punjab, India. I also make music with artists as a freelancer, working hard to bring their ideas to life. I care about my community in North York and want everyone to feel included. I've got certificates in things like safety and first aid, showing I'm serious about learning and helping others.
+                        </p>
+                    </div>
+                    <div class="img_cont">
+                        <img src="https://i.imgur.com/3p1SRJy.jpeg" alt="picture">
+                    </div>
+                </div>
+                <div class="btn_cont">
+                    <button class="btn resume"><a href="./assets/AMARDEEP SINGH BRAR.pdf" download>Resume</a></button>
+                    <button class="btn contact_btn"><a href="#contact">Contact Me</a></button>
+                </div>
+            </div>
+        </section>
+        <section id="Education">
+            <div class="Education_cont">
+                <h1>Education</h1>
+                <div class="edu_cont">
+                    <div class="edu_info">
+                        <h2 class="edu_name">Diploma: Computer Programming (CPP)</h2>
+                        <p class="edu_desc">September 2023–2024</p>
+                        <p>Seneca Polytechnic College Canada, Toronto, ON</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="fade-in-text">
+            <h2>Contact Me</h2>
+            <div class="form_cont">
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
